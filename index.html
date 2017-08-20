@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Totally Trivial Game</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="assets/javascript/app.js"></script>
+	</head>
+	<body>
+		<section>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h2 class="col-md-12">Your Score: </h2>
+						<h2 class="col-md-4">Correct Answers: <span id="correctAnswers"></span></h2>
+						<h2 class="col-md-4">Incorrect Answers: <span id="incorrectAnswers"></span></h2>
+						<h2 class="col-md-4">Unanswered Questions: <span id="unansweredQuestions"></span></h2>
+						<h2>Time Left: <span id="display">10:00</span><h2>
+						<div class="question">
+							<h1></h1>
+							<img src="" alt="">
+							<button id="option1Button"></button>
+							<button id="option2Button"></button>
+							<button id="option3Button"></button>
+							<button id="option4Button"></button>
+						</div>
+						<div class="answer">
+							<h2>Answer: <span id="answer"><span id="answer2"></span></span></h2>
+							<img src="" alt="" id="answerImage">
+						</div>
+						<div class="restartButton">
+							<button id="restartButton">RESTART GAME</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</body>
+</html>

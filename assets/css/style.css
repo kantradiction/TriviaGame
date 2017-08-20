@@ -1,0 +1,13 @@
+img {
+	display: block;
+}
+
+.visible {
+	display: initial;
+	visibility: visible;
+}
+
+.invisible {
+	display: none;
+	visibility: hidden;
+}
